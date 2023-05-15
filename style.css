@@ -6,14 +6,12 @@ h1 {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: xx-large;
-    text-align: center;
 }
 
 h2, h3{
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
-    text-align: center;
 }
 
 p {
@@ -33,5 +31,14 @@ span{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 45%;
+    float: left;
+}
+
+.heading-container{
+    float: right;
+    position: relative;
+    right: 250px;
+    top: 200px;
+    text-align: center;
 }
