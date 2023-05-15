@@ -42,3 +42,32 @@ span{
     top: 200px;
     text-align: center;
 }
+
+.topnav{
+    background-color: rgba(24, 22, 22, 0.959);
+    overflow: hidden;
+    width: 310px;
+    position: fixed;
+    top: 25px;
+    right: 250px;
+
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: blue;
+    color: white;
+  }
